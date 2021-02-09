@@ -8,8 +8,21 @@ h1 {
   font-size: 55px;
 }
 
+h2, h3, h4,
+h5, h6 {
+  font-weight: 500;
+}
+
+.weight_500 {
+  font-weight: 500;
+}
+
 p  {
   font-size: 19px;
+}
+
+.main_text_color {
+  color: #031c4e;
 }
 
 ul {
@@ -17,19 +30,19 @@ ul {
 }
 
 .menu_top a {
-  color: black;
   font-size: 14px;
+  color: currentColor;
 }
 /* Typography end */
 /* buttons */
 .sign_up {
-  border-color: #579aff;
-  color: #579aff;
+  border-color: #006aff;
+  color: #006aff;
   font-size: 13px;
 }
 
 .sign_up:hover {
-  background-color: #579aff;
+  background-color: #006aff;
   color: white;
 }
 
@@ -38,6 +51,21 @@ ul {
   color: #579aff;
   border: none;
   font-size: 20px;
+}
+
+.ligh_blue_btn  {
+  background-color: #579aff;
+  color: white;
+}
+
+.sign_up_google, .ligh_blue_btn {
+  width: 100%;
+}
+
+.sign_up_google {
+  margin-top: 10px;
+  border: none;
+  box-shadow: 1px 1px 1px 0px #ccc;
 }
 /* buttons */
 /* menu */
@@ -79,7 +107,31 @@ ul {
 
 .presentation {
   color: #fff;
-  padding-top: 200px;
   padding-right: 100px;
+  padding: 150px 0;
+}
+
+.sign_up_box {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.sign_up_box h3 {
+  font-size: 30px;
+  line-height: 50px;
+  color: #006aff;
+  padding-top: 20px;
+}
+
+.form {
+  font-size: 17px;
+  padding: 5px;
+  height: 40px;
+}
+
+.google_icon {
+  height: 20px;
 }
 /* hero end */
