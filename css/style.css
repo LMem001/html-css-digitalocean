@@ -18,16 +18,24 @@ h5, h6 {
   font-weight: 500;
 }
 
-.weight_500 {
-  font-weight: 500;
+h5 {
+  font-size: 18px;
 }
 
-p  {
+header p  {
   font-size: 19px;
 }
 
 main p  {
   color: #7f89a3;
+}
+
+.intro_p {
+  font-size: 23px;
+}
+
+.small_p p {
+  font-size: 15px;
 }
 
 .sign_up_box p {
@@ -36,6 +44,14 @@ main p  {
 
 .main_text_color {
   color: #031c4e;
+}
+
+.text_light_color {
+  color: #7f89a3;
+}
+
+.weight_500 {
+  font-weight: 500;
 }
 
 ul {
@@ -80,11 +96,29 @@ ul {
   border: none;
   box-shadow: 1px 1px 1px 0px #ccc;
 }
+
+.exhibit_btn  {
+  padding: 15px 20px;
+  border: none;
+  border-left: 2px solid lightgrey;
+  font-size: 18px;
+  background-color: transparent;
+  font-weight: 500;
+  outline: none;
+}
+
+.exhibit_btn:active{
+  border-color: #006aff;
+  color: rgb(3, 27, 78);
+}
 /* buttons */
 /* menu */
 .menu_top {
   padding: 20px 0;
   background-color: #fff;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
 }
 
 .logo {
@@ -153,6 +187,7 @@ ul {
 }
 /* hero end */
 /* main */
+/* sponsors */
 .sponsors {
   padding: 50px 10px;
 }
@@ -174,6 +209,21 @@ ul {
   font-size: 10px;
   margin-left: 10px;
 }
+/* sponsors end */
+/* functioning */
+.functioning  {
+  padding: 100px 0;
+}
+
+.functioning_explanation  {
+  padding: 50px;
+}
+
+.exhibit_box  {
+  padding-right: 55px;
+  padding-bottom: 40px;
+}
+/* functioning end */
 /* main end */
 @media screen and (max-width: 991px)  {
   .presentation {
