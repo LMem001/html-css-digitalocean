@@ -7,3 +7,21 @@ ul {
   margin: 0;
 }
 /* Typography end */
+/* menu */
+.menu_top {
+  padding: 20px 0;
+  background-color: #fff;
+}
+
+.logo {
+  width: 100%;
+}
+
+.menu_top nav {
+  margin-top: 10px;
+}
+
+.first_nav  {
+  margin-left: 100px;
+}
+/* menu end */
