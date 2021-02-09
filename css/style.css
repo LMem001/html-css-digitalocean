@@ -1,7 +1,12 @@
+/* mix */
 *  {
   font-family: 'Roboto', sans-serif;
 }
 
+.light_background {
+  background-color: #f3f5f9;
+}
+/* mix end */
 /* Typography */
 h1 {
   font-weight: 700;
@@ -19,6 +24,14 @@ h5, h6 {
 
 p  {
   font-size: 19px;
+}
+
+main p  {
+  color: #7f89a3;
+}
+
+.sign_up_box p {
+  font-size: 15px;
 }
 
 .main_text_color {
@@ -63,7 +76,7 @@ ul {
 }
 
 .sign_up_google {
-  margin-top: 10px;
+  margin: 10px 0;
   border: none;
   box-shadow: 1px 1px 1px 0px #ccc;
 }
@@ -107,15 +120,15 @@ ul {
 
 .presentation {
   color: #fff;
+  padding-top: 150px;
   padding-right: 100px;
-  padding: 150px 0;
 }
 
 .sign_up_box {
   background-color: #fff;
   border-radius: 5px;
   padding: 20px;
-  margin-top: 100px;
+  margin: 110px 0;
 }
 
 .sign_up_box h3 {
@@ -123,6 +136,10 @@ ul {
   line-height: 50px;
   color: #006aff;
   padding-top: 20px;
+}
+
+.sign_up_box a {
+  text-decoration: underline;
 }
 
 .form {
@@ -135,3 +152,37 @@ ul {
   height: 20px;
 }
 /* hero end */
+/* main */
+.sponsors {
+  padding: 50px 10px;
+}
+
+.sponsors h4 {
+  color: #7f89a3;
+}
+
+.sponsors_logos {
+  padding: 50px 0;
+}
+
+.sponsors p {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.fa-greater-than {
+  font-size: 10px;
+  margin-left: 10px;
+}
+/* main end */
+@media screen and (max-width: 991px)  {
+  .presentation {
+    padding-top: 50px;
+    padding-right: 0px;
+  }
+
+  .sign_up_box {
+    margin-bottom: 110px;
+    margin-top: 0;
+  }
+}
