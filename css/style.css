@@ -3,6 +3,15 @@
 }
 
 /* Typography */
+h1 {
+  font-weight: 700;
+  font-size: 55px;
+}
+
+p  {
+  font-size: 19px;
+}
+
 ul {
   margin: 0;
 }
@@ -59,3 +68,18 @@ ul {
   vertical-align: middle;
 }
 /* menu end */
+/* hero */
+.hero {
+  background-image: url("../img/bg-home-hero-3.svg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.presentation {
+  color: #fff;
+  padding-top: 200px;
+  padding-right: 100px;
+}
+/* hero end */
