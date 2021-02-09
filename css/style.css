@@ -6,7 +6,24 @@
 ul {
   margin: 0;
 }
+
+.menu_top a {
+  color: black;
+  font-size: 14px;
+}
 /* Typography end */
+/* buttons */
+.sign_up {
+  border-color: #579aff;
+  color: #579aff;
+  font-size: 13px;
+}
+
+.sign_up:hover {
+  background-color: #579aff;
+  color: white;
+}
+/* buttons */
 /* menu */
 .menu_top {
   padding: 20px 0;
@@ -21,7 +38,17 @@ ul {
   margin-top: 10px;
 }
 
+.menu_top li:not(:last-child) {
+  margin-right: 5px;
+}
+
 .first_nav  {
   margin-left: 100px;
+}
+
+.fa-angle-down {
+  margin-left: 4px;
+  font-size: 16px;
+  vertical-align: middle;
 }
 /* menu end */
