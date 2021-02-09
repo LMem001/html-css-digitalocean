@@ -23,6 +23,13 @@ ul {
   background-color: #579aff;
   color: white;
 }
+
+.btn_mobile  {
+  background-color: transparent;
+  color: #579aff;
+  border: none;
+  font-size: 20px;
+}
 /* buttons */
 /* menu */
 .menu_top {
@@ -31,7 +38,7 @@ ul {
 }
 
 .logo {
-  width: 100%;
+  width: 200px;
 }
 
 .menu_top nav {
