@@ -6,6 +6,14 @@
 .light_background {
   background-color: #f3f5f9;
 }
+
+.v_padding_50 {
+  padding: 50px 0;
+}
+
+.exhibit_box img {
+  padding-bottom: 10px;
+}
 /* mix end */
 /* Typography */
 h1 {
@@ -15,6 +23,10 @@ h1 {
 
 h2  {
   font-size: 33px;
+}
+
+.target h2, .needs h2 {
+  padding-bottom: 20px;
 }
 
 h2, h3, h4,
@@ -260,7 +272,7 @@ ul {
   padding: 40px;
 }
 
-.exhibit_box  {
+.functioning .exhibit_box  {
   padding-right: 55px;
   padding-bottom: 20px;
 }
@@ -268,10 +280,6 @@ ul {
 /* target */
 .target {
   padding: 50px 0;
-}
-
-.target h2 {
-  padding-bottom: 20px;
 }
 
 .carousel  {
