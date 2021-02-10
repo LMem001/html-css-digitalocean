@@ -115,6 +115,25 @@ ul {
   border-color: #006aff;
   color: rgb(3, 27, 78);
 }
+/* svitch class */
+.switch {
+  display: inline-block;
+  width: 9%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.switch_btn  {
+  background-color: transparent;
+  border: none;
+  font-size: 60px;
+  color: rgba(3, 28, 70, 0.5);
+}
+
+.switch_btn:hover  {
+  color: rgb(3, 28, 70);
+}
+/* svitch class end */
 /* buttons */
 /* menu */
 .menu_top {
@@ -235,10 +254,15 @@ ul {
 }
 
 .carousel  {
-  height: 500px;
-  width: 600px;
-  background-color: red;
+  width: 900px;
   margin-top: 50px;
+}
+
+.carousel__image  {
+  width: 80%;
+  height: 500px;
+  display: inline-block;
+  background-color: blue;
 }
 /* target end */
 /* main end */
