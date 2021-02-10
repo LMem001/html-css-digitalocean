@@ -254,13 +254,12 @@ ul {
 }
 
 .carousel  {
-  width: 900px;
+  max-width: 900px;
   margin-top: 50px;
 }
 
 .carousel__image  {
   width: 80%;
-  height: 500px;
   display: inline-block;
   background-color: blue;
 }
