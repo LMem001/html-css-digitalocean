@@ -13,6 +13,10 @@ h1 {
   font-size: 55px;
 }
 
+h2  {
+  font-size: 33px;
+}
+
 h2, h3, h4,
 h5, h6 {
   font-weight: 500;
@@ -209,18 +213,34 @@ ul {
 /* sponsors end */
 /* functioning */
 .functioning  {
-  padding: 100px 0;
+  padding-top: 100px;
 }
 
 .functioning_explanation  {
-  padding: 50px;
+  padding: 40px;
 }
 
 .exhibit_box  {
   padding-right: 55px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 /* functioning end */
+/* target */
+.target {
+  padding: 50px 0;
+}
+
+.target h2 {
+  padding-bottom: 20px;
+}
+
+.carousel  {
+  height: 500px;
+  width: 600px;
+  background-color: red;
+  margin-top: 50px;
+}
+/* target end */
 /* main end */
 @media screen and (max-width: 991px)  {
   .presentation {
