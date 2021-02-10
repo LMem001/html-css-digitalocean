@@ -317,7 +317,22 @@ ul {
 
 .data_centers_introduction p {
   color: #fff;
-  font-size: 20px;  
+  font-size: 20px;
+}
+
+.data_centers_table tr td:first-child {
+  font-weight: 500;
+  font-size: 13px;
+  width: 25%;
+}
+
+.data_centers_table tr td:last-child {
+  text-align: right;
+}
+
+.data_centers_table tr td:nth-child(2) {
+  color: #7f89a3;
+  font-size: 12px;
 }
 /* data_centers end */
 /* main end */
