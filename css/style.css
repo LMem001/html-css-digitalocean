@@ -107,7 +107,7 @@ ul {
   outline: none;
 }
 
-.exhibit_btn:active{
+.exhibit_btn:focus {
   border-color: #006aff;
   color: rgb(3, 27, 78);
 }
@@ -194,10 +194,7 @@ ul {
 
 .sponsors h4 {
   color: #7f89a3;
-}
-
-.sponsors_logos {
-  padding: 50px 0;
+  padding-bottom: 50px;
 }
 
 .sponsors p {
