@@ -308,6 +308,7 @@ ul {
 
 .data_centers_introduction  {
   padding: 0 200px;
+  margin-bottom: 60px;
 }
 
 .data_centers_introduction h2 {
@@ -330,11 +331,29 @@ ul {
   text-align: right;
 }
 
+.data_centers_table tr td:last-child a {
+  color: #00d7d2;
+}
+
+.data_centers_table tr td:last-child a:hover {
+  color: #0069ff;
+  text-decoration: none;
+}
+
 .data_centers_table tr td:nth-child(2) {
   color: #7f89a3;
   font-size: 12px;
 }
 /* data_centers end */
+/* thoughts about us */
+.carousel_content  {
+  display: inline-block;
+}
+.carousel_content {
+  padding: 0 40px;
+  width: 80%;
+}
+/* thoughts about us end */
 /* main end */
 @media screen and (max-width: 991px)  {
   .presentation {
