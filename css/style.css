@@ -297,6 +297,29 @@ ul {
   margin-top: 15px;
 }
 /* target end */
+/* data centers */
+.data_centers {
+  background-color: #031b4e;
+  background-image: url("../img/bg-map.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.data_centers_introduction  {
+  padding: 0 200px;
+}
+
+.data_centers_introduction h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.data_centers_introduction p {
+  color: #fff;
+  font-size: 20px;  
+}
+/* data_centers end */
 /* main end */
 @media screen and (max-width: 991px)  {
   .presentation {
