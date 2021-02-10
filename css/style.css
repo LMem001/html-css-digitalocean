@@ -66,6 +66,10 @@ ul {
   font-size: 14px;
   color: currentColor;
 }
+
+.menu_top a:hover, .menu_top a:focus {
+  text-decoration: none;
+}
 /* Typography end */
 /* buttons */
 .sign_up {
@@ -115,7 +119,7 @@ ul {
   border-color: #006aff;
   color: rgb(3, 27, 78);
 }
-/* svitch class */
+/* switch class buttons */
 .switch {
   display: inline-block;
   width: 9%;
@@ -128,12 +132,29 @@ ul {
   border: none;
   font-size: 60px;
   color: rgba(3, 28, 70, 0.5);
+  outline: none;
 }
 
 .switch_btn:hover  {
   color: rgb(3, 28, 70);
 }
-/* svitch class end */
+
+.bullet_btn  {
+  padding: 3px;
+  border-width:2px;
+  border-radius: 50%;
+  border-color: #0069ff;
+  outline: none;
+}
+
+.bullet_btn:not(:last-child)  {
+  margin-right: 8px;
+}
+
+.bullet_btn:focus {
+  background-color: #0069ff;
+}
+/* switch class buttons end */
 /* buttons */
 /* menu */
 .menu_top {
@@ -262,6 +283,10 @@ ul {
   width: 80%;
   display: inline-block;
   background-color: blue;
+}
+
+.target h5 {
+  margin-top: 15px;
 }
 /* target end */
 /* main end */
