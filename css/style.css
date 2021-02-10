@@ -346,12 +346,40 @@ ul {
 }
 /* data_centers end */
 /* thoughts about us */
-.carousel_content  {
+.others_thoughts .carousel  {
+  max-width: 700px;
+}
+
+.others_thoughts .accurate_switch  {
+  margin-top: 30px;
+}
+
+.others_thoughts .switch {
+  vertical-align: top;
+  margin-top: 130px;
+}
+
+.carousel_content {
+  display: inline-block;
+  padding: 50px 0;
+  width: 80%;
+  background-color: #fff;
+}
+
+.carousel_content > img {
+  width: 300px;
+  margin-bottom: 35px;
   display: inline-block;
 }
-.carousel_content {
-  padding: 0 40px;
-  width: 80%;
+
+.carousel_content p {
+  font-size: 21px;
+}
+
+.carousel_content a {
+  color:  #0069ff;
+  display: inline-block;
+  margin-top: 30px;
 }
 /* thoughts about us end */
 /* main end */
