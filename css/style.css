@@ -326,6 +326,7 @@ ul {
 .data_centers_introduction  {
   padding: 0 200px;
   margin-bottom: 60px;
+  display: inline-block;
 }
 
 .data_centers_introduction h2 {
@@ -384,7 +385,7 @@ ul {
 }
 
 .carousel_content > img {
-  width: 300px;
+  max-width: 70%;
   margin-bottom: 35px;
   display: inline-block;
 }
@@ -520,6 +521,10 @@ ul {
     padding-right: 0px;
   }
 
+  .data_centers_introduction  {
+    padding: 0px 10px;
+  }
+
   .sign_up_box {
     margin-bottom: 110px;
     margin-top: 0;
@@ -546,6 +551,21 @@ ul {
     display: inline-block;
     position: absolute;
     left: 10%;
+    top: -12px;
+  }
+}
+
+@media screen and (max-width: 480px)  {
+  .helper {
+    left: 20%;
+  }
+
+  .helper_text  {
+    width: 150px;
+  }
+
+  .helper_text::after {
+    left: 15%;
     top: -12px;
   }
 }
