@@ -457,6 +457,7 @@ ul {
   position: relative;
   margin-right: 6px;
   vertical-align: middle;
+  box-shadow: 1px 1px 1px 1px #000;
 }
 
 .helper_text p {
@@ -508,6 +509,7 @@ ul {
 
 .helper_text  {
   float:left;
+  margin-right: 20px;
 }
 /* helper end */
 /* footer end*/
