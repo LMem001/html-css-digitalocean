@@ -401,6 +401,28 @@ ul {
   padding-bottom: 15px;
 }
 /* get started  end */
+/* footer */
+.about_us_foot {
+  background-color: #031c4e;
+}
+
+.copyright_and_socials  {
+  padding-right: 30px;
+}
+
+.copyright_and_socials img {
+  margin-bottom: 10px;
+}
+
+.site_backstory  {
+  color: #596886;
+}
+
+.socials a {
+  font-size: 20px;
+  color: currentColor;
+}
+/* footer end*/
 /* main end */
 @media screen and (max-width: 991px)  {
   .presentation {
