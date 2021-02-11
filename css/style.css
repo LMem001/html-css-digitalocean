@@ -556,10 +556,6 @@ ul {
 }
 
 @media screen and (max-width: 480px)  {
-  .helper {
-    left: 20%;
-  }
-
   .helper_text  {
     width: 150px;
   }
