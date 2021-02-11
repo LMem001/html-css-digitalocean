@@ -440,6 +440,59 @@ ul {
 .about_us_foot ul li a:hover {
   text-decoration: none;
 }
+/* helper */
+.helper {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
+
+.question {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.helper_text {
+  display: inline-block;
+  background-color: #fff;
+  width: 250px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: -4px;
+}
+
+.helper_text p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.question::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  display: inline-block;
+  border-left:10px solid #fff;
+}
+
+.helper_img {
+  display: inline-block;
+  padding: 5px 0;
+  background-color: #006aff;
+  border-radius: 5px;
+}
+
+.pop_up_nmb  {
+  margin: -4px;
+  width: 100px;
+}
+
+.helper img {
+  width: 55px;
+  vertical-align: middle;
+}
+/* helper */
 /* footer end*/
 /* main end */
 @media screen and (max-width: 991px)  {
