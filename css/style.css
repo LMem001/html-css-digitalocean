@@ -38,6 +38,14 @@ h5 {
   font-size: 18px;
 }
 
+.about_us_foot h6 {
+  color: white;
+}
+
+h6 {
+  font-size: 16px;
+}
+
 header p  {
   font-size: 19px;
 }
@@ -406,10 +414,6 @@ ul {
   background-color: #031c4e;
 }
 
-.copyright_and_socials  {
-  padding-right: 30px;
-}
-
 .copyright_and_socials img {
   margin-bottom: 10px;
 }
@@ -421,6 +425,20 @@ ul {
 .socials a {
   font-size: 20px;
   color: currentColor;
+}
+
+.about_us_foot ul li {
+  padding-bottom: 8px;
+}
+
+.about_us_foot ul li a {
+  color: currentColor;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.about_us_foot ul li a:hover {
+  text-decoration: none;
 }
 /* footer end*/
 /* main end */
