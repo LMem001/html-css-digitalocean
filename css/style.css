@@ -95,6 +95,11 @@ ul {
   color: white;
 }
 
+.get_started_btn {
+  border: none;
+  font-size: 15px;
+}
+
 .btn_mobile  {
   background-color: transparent;
   color: #579aff;
@@ -149,6 +154,10 @@ ul {
 
 .switch_btn:hover  {
   color: rgb(3, 28, 70);
+}
+
+.accurate_switch  {
+  font-size: 0;
 }
 
 .bullet_btn  {
@@ -382,6 +391,16 @@ ul {
   margin-top: 30px;
 }
 /* thoughts about us end */
+/* get started */
+.get_started  {
+  background-image: linear-gradient(to bottom, #0042bb, #0039b2, #0031a9, #00289f, #001f96);
+  color: #fff;
+}
+
+.get_started h2 {
+  padding-bottom: 15px;
+}
+/* get started  end */
 /* main end */
 @media screen and (max-width: 991px)  {
   .presentation {
